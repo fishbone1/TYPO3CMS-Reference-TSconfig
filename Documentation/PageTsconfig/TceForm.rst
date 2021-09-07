@@ -171,14 +171,14 @@ config
 
     .. code-block:: php
 
-        'input' => ['size', 'max', 'readOnly'],
-        'text' => ['cols', 'rows', 'wrap', 'max', 'readOnly'],
-        'check' => ['cols', 'readOnly'],
-        'select' => ['size', 'autoSizeMax', 'maxitems', 'minitems', 'readOnly', 'treeConfig'],
-        'group' => ['size', 'autoSizeMax', 'max_size', 'maxitems', 'minitems', 'readOnly'],
-        'inline' => ['appearance', 'behaviour', 'foreign_label', 'foreign_selector', 'foreign_unique', 'maxitems', 'minitems', 'size', 'autoSizeMax', 'symmetric_label', 'readOnly'],
-        'imageManipulation' => ['ratios', 'cropVariants']
-
+      'input' => ['size', 'max', 'readOnly'],
+      'text' => ['cols', 'rows', 'wrap', 'max', 'readOnly'],
+      'check' => ['cols', 'readOnly'],
+      'select' => ['size', 'autoSizeMax', 'maxitems', 'minitems', 'readOnly', 'treeConfig'],
+      'group' => ['size', 'autoSizeMax', 'max_size', 'maxitems', 'minitems', 'readOnly'],
+      'inline' => ['appearance', 'behaviour', 'foreign_label', 'foreign_selector', 'foreign_unique', 'maxitems', 'minitems', 'size', 'autoSizeMax', 'symmetric_label', 'readOnly'],
+      'imageManipulation' => ['ratios', 'cropVariants'],
+      'category' => ['size', 'maxitems', 'minitems', 'readOnly', 'treeConfig'],
 
     This property is available for various levels:
 
